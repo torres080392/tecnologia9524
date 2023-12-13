@@ -1,0 +1,259 @@
+     
+    /* Estilos para la tabla */
+    table {
+      width: 80%;
+      /* Ancho total de la tabla */
+      border-collapse: collapse;
+      /* Borde de celda colapsado */
+      margin-bottom: 20px;
+      /* Espacio al final de la tabla */
+  }
+
+  /* Estilos para las celdas de la tabla */
+  th,
+  td {
+      border: 1px solid #ccc;
+      /* Borde de celda */
+      padding: 8px;
+      /* Espaciado interno de celda */
+      text-align: left;
+      /* Alineación del texto */
+  }
+
+  /* Estilos para la fila de encabezados (th) */
+  th {
+      background-color: #f2f2f2;
+      /* Color de fondo de los encabezados */
+  }
+
+  /* Estilos alternados para filas impares */
+  tr:nth-child(odd) {
+      background-color: #e8e8e8;
+      /* Color de fondo para filas impares */
+  }
+
+  .formulario input[type="text"],
+  .formulario input[type="date"],
+  .formulario input[type="select"] {
+      width: calc(20% - 20px);
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+  }
+
+  #usuario {
+      width: calc(20% - 20px);
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+  }
+
+
+  input[type="submit"] {
+      padding: 10px;
+
+      background-color: green;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+
+      /* Cambia el color del texto a blanco */
+  }
+
+  button {
+
+      padding: 10px;
+      background-color:#F58840;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-left: 80%;
+      /* Cambia el color del texto a blanco */
+  }
+
+  #navegarBotonLista {
+
+      padding: 10px;
+      background-color: #F58840;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 20px;
+      margin-left: 3%;
+      /* Cambia el color del texto a blanco */
+  }
+
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      left: 40px;
+  }
+
+  header {
+   
+      margin-left: auto;
+      background-color: #F58840;
+      color: black;
+      padding: 40px;
+  }
+
+  nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  nav ul li {
+      display: inline;
+      margin-right: 20px;
+  }
+
+  nav ul li a {
+      color: black;
+      text-decoration: none;
+  }
+
+  .hidden {
+      display: none;
+  }
+
+  /* Estilos para el formulario desplegable */
+  /* Estilos para los formularios */
+
+  .formulario {
+      margin: 5px;
+      padding: 30px;
+      border: 5px solid #ccc;
+      border-radius: 5px;
+  }
+
+  .formulario h2 {
+      margin-top: 0;
+      font-size: 24px;
+  }
+
+  .formulario form {
+      display: grid;
+      gap: 10px;
+  }
+
+  #tipo_usuario {
+      width: calc(20% - 20px);
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+  }
+  #username {
+    width: calc(20% - 20px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+  .formulario label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 10px;
+  }
+
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario input[type="select"] {
+      width: calc(20% - 20px);
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+  }
+
+  .formulario input[type="submit"] {
+      background-color: green;
+      color: black;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      width: calc(5% - 10px);
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+  }
+
+  .formulario input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+
+  .formulario input[type="submit"]:hover {
+      background-color: #555;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu-icon {
+   
+    padding: 15px;
+    position: fixed;
+    z-index: 2;
+    margin-left: 60%;
+    margin-top: 0px;
+    cursor: pointer;/* Asegura que el menú esté sobre el contenido */
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    position: absolute;
+    top: 80px; /* Ajusta según sea necesario para evitar que se solape con el icono */
+    left: 0;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    z-index: 1; /* Asegura que el menú esté sobre el contenido */
+}
+
+.menu-list li {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block; /* Hace que todo el área de <li> sea clickable */
+}
+
+.menu-list li:hover {
+    background-color: #F58840;
+    /* Cambia el color de fondo en hover */
+}
+
+.menu-list li a:hover {
+    color: black;
+    /* Cambia el color del texto en hover */
+}
+
+.menu-list li:last-child {
+    border-bottom: none;
+    /* Elimina el borde inferior del último elemento */
+}
+.MenuOpciones{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    margin-top: 18px;
+}
+

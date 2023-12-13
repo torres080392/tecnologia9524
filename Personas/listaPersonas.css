@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #EADEDE;
+
+
+}
+
+table {
+  margin-left:20px;
+  width: 97%;
+  /* Ancho total de la tabla */
+  border-collapse: collapse;
+  /* Borde de celda colapsado */
+  margin-bottom: 20px;
+  /* Espacio al final de la tabla */
+  background-color:#F58840
+}
+
+/* Estilos para las celdas de la tabla */
+th,
+td {
+  border: 1px solid #F58840;
+  /* Borde de celda */
+  padding: 8px;
+  /* Espaciado interno de celda */
+  text-align: left;
+  /* Alineación del texto */
+}
+
+th {
+  background-color:black;
+  color: #ccc;
+  /* Color de fondo de los encabezados */
+}
+
+/* Estilos alternados para filas impares */
+tr:nth-child(odd) {
+  background-color: #e8e8e8;
+  /* Color de fondo para filas impares */
+}
+
+
+input[type="text"] {
+  width: calc(40% - 40px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.menu-icon {
+
+  padding: 15px;
+  position: fixed;
+  z-index: 2;
+  margin-left: 78%;
+  margin-top: 80px;
+  cursor: pointer;
+
+  /* Asegura que el menú esté sobre el contenido */
+}
+
+.line {
+  margin-top:auto;
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 6px 0;
+}
+
+.menu-list {
+
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  position: absolute;
+  top: 60px;
+  /* Ajusta según sea necesario para evitar que se solape con el icono */
+  left: 0;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  z-index: 1;
+  /* Asegura que el menú esté sobre el contenido */
+}
+
+.menu-list li {
+
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-list li a {
+
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+
+.menu-list li:hover {
+  background-color: #F58840;
+  /* Cambia el color de fondo en hover */
+}
+
+.menu-list li a:hover {
+  color: black;
+  /* Cambia el color del texto en hover */
+}
+
+.menu-list li:last-child {
+  border-bottom: none;
+  /* Elimina el borde inferior del último elemento */
+}
+
+input[type="submit"] {
+  padding: 10px;
+
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #ccc;
+
+  /* Cambia el color del texto a blanco */
+}
+header {
+padding: 100px;
+margin-left: auto;
+background-color:#F58840;
+color: black;
+padding: 30px;
+}
+h4 {
+margin-left: 20px;
+}
+.pagination{
+  margin-top: 20px;
+  width: 30px;
+}

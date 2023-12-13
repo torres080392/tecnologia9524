@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #F58840;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  width: 320px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  background: #EADEDE;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+  margin: 0 0 20px;
+  padding: 0;
+  color: #333;
+}
+
+.user-box {
+  position: relative;
+  margin: 30px 0;
+}
+
+.user-box input {
+  width: 100%;
+  padding: 10px;
+  background: none;
+  border: none;
+  outline: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  color: #888;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #337ab7;
+}
+input[type="submit"] {
+  padding: 10px;
+
+  background-color: green;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+
+  /* Cambia el color del texto a blanco */
+}

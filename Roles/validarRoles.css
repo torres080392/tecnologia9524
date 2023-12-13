@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  left: 40px;
+  background-color: whitesmoke;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 100px;
+  margin-left: auto;
+  color: black;
+  padding: 30px;
+}
+
+table {
+  width: 90%;
+  /* Ancho total de la tabla */
+  border-collapse: collapse;
+  /* Borde de celda colapsado */
+  margin-bottom: 20px;
+  /* Espacio al final de la tabla */
+  margin-left: 30px;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color:#7B66FF;
+}
+
+tr:hover {
+  background-color: white;
+}
+
+form {
+  display: inline-block;
+  /* Para que los formularios estén en la misma línea */
+  margin: 0;
+  /* Elimina el margen predeterminado */
+}
+
+
+h3 {
+  color: #333;
+  margin-left: 30px;
+}
+
+
+
+p {
+  color: #555;
+}
+

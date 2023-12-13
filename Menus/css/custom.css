@@ -1,0 +1,192 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #e1e1e1;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+ 
+}
+header {
+  padding: 20px 0 0 0;
+  background: #000000;
+  text-align: center;
+}
+
+@media (min-width: 750px) {
+  header {
+    text-align: left;
+  }
+}
+
+#navegarBoton {
+  background-color: #000000;
+  border: none;
+  box-shadow: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 80%;
+  color: #e1e1e1;
+
+  /* Cambia el color del texto a blanco */
+}
+.borrar-curso {
+  background-color: #f58840;
+  border-radius: 50%;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  width: 40px;
+}
+
+ul {
+  list-style: none;
+}
+#hero {
+  background-image: url(../img/hero.jpg);
+  height: 350px;
+  background-size: cover;
+}
+#encabezado {
+  margin: 30px 0;
+}
+.submenu {
+  position: relative;
+}
+
+.submenu:hover #carrito {
+  display: block;
+  position: absolute;
+  right: 0;
+
+  top: 100%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  min-height: 400px;
+  min-width: 300px;
+}
+.vacio {
+  padding: 10px;
+  background-color: crimson;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+.contenido-hero {
+  margin-top: 80px;
+  color: black;
+}
+.contenido-hero form {
+  position: relative;
+  margin-bottom: 0;
+}
+.contenido-hero form #buscador {
+  height: 50px;
+  margin-bottom: 0;
+}
+.contenido-hero form .submit-buscador {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  padding: 0;
+  display: block;
+  text-indent: -9999px;
+  width: 50px;
+  background-image: url(../img/lupa.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.barra {
+  padding: 20px 0;
+  background: #f58840; /* Old browsers */
+  margin-top: 20px;
+}
+
+.barra p {
+  margin: 15px;
+  color: black;
+}
+.icono {
+  padding-left: 60px;
+  background-size: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+  background-color: #f58840;
+}
+@media (min-width: 750px) {
+  .icono {
+    margin-bottom: 0;
+  }
+}
+.icono1 {
+  background-image: url(../img/icono1.png);
+}
+.icono2 {
+  background-image: url(../img/icono2.png);
+}
+.icono3 {
+  background-image: url(../img/icono3.png);
+}
+
+#lista-cursos .row {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.agregar-carrito {
+  margin: 10px 0;
+}
+
+.card {
+  text-align: center;
+  border: 2px solid #f58840;
+  background: #f58840;
+}
+@media (min-width: 550px) {
+  .card {
+    text-align: left;
+  }
+}
+.info-card {
+  padding: 10px 20px;
+}
+
+.info-card p,
+.card h4 {
+  margin-bottom: 5px;
+}
+
+.footer {
+  background-color: #f58840;
+  margin-top: 40px;
+  border-top: 1px solid gray;
+  padding-top: 40px;
+}
+.footer .menu a {
+  background-color: #f58840;
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+
+
+.u-full-width.button-primary.button {
+  background-color: black; /* Cambia el fondo a negro */
+  color: white; /* Cambia el color del texto a blanco */
+
+}
